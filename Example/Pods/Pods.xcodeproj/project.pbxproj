@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123306D3EF6EE3F6F71B28763B6CC92A /* Pods-AFAboutViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BF1AA319910107003C610B3721CC6C /* Pods-AFAboutViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23717C5E136A85F59A44A6AC1BA14E00 /* AFAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07FDA5E997B496888B2DA9B39B434FF /* AFAboutViewController.m */; };
+		316DFA1A9CC3E6D0A285713AEF91F60D /* Pods-AFAboutViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F2EDC3F6119431812517B3F926125 /* Pods-AFAboutViewController_Example-dummy.m */; };
+		3888B20AFBDB28149E0D11150B6027C6 /* Pods-AFAboutViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AB55AD35B09E86690C5751AFA0385 /* Pods-AFAboutViewController_Tests-dummy.m */; };
+		38CAC5EBD4B2357989D4DF7F83AC9A96 /* AFAboutViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F97AE5A2907BFF086F3A7446A5019B78 /* AFAboutViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396C003D07F60201F628E88C7F23CBCA /* AFAboutViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F58DDB79D7B0A998271A3FE217CFD1E /* AFAboutViewController-dummy.m */; };
+		65EB6E015DD03A425E7300A10DC34ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6B74F51A15003B85BCECDC39385A897D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9960ACDBC5027FF25C286276BE3DA64C /* Pods-AFAboutViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2237B49044F21DDE358B6496B0EF7E /* Pods-AFAboutViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA7B9AA6169F21DCE91ACAB4A7970DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE557DC0EB7C330D7394C6BF73742055 /* AFAboutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FD5EB4B0DAB07E19E9025F31AE8939 /* AFAboutViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9047C31A8497B4F2594DF7E4A06DE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593396E48F4B8467E9DB6D80A90E7F85;
+			remoteInfo = AFAboutViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046E2F4587E998DF77C3883CD1EE6710 /* Pods-AFAboutViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFAboutViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0596613565C59886C20E910904E80440 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105210F5036564C9FD673897C256DABE /* AFAboutViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFAboutViewController-prefix.pch"; sourceTree = "<group>"; };
+		18E8AB916A40F584B6530979CA69DEBE /* Pods-AFAboutViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFAboutViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1EF712F842801BC93737FAE4A8C5E658 /* Pods-AFAboutViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFAboutViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22361F07D1DC58F953D9A28228EB75EB /* Pods-AFAboutViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AFAboutViewController_Example.modulemap"; sourceTree = "<group>"; };
+		281AA28A0480C7861375CCCC015A2C27 /* AFAboutViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFAboutViewController.modulemap; sourceTree = "<group>"; };
+		3D7F2EDC3F6119431812517B3F926125 /* Pods-AFAboutViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFAboutViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		4763EAA848A7D24ABBE02B65E69FB9F9 /* AFAboutViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFAboutViewController.framework; path = AFAboutViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D201DB2F92441AA85DFBDA983ED59E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6E40AB058AEC1DD908E041D1C0C0F8 /* Pods-AFAboutViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFAboutViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D48AFF1438F420D185D591A97DBFB48 /* Pods-AFAboutViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFAboutViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F58DDB79D7B0A998271A3FE217CFD1E /* AFAboutViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFAboutViewController-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66188981C421698BDB6428FA85E55C5A /* Pods-AFAboutViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFAboutViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70FD5EB4B0DAB07E19E9025F31AE8939 /* AFAboutViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFAboutViewController.h; sourceTree = "<group>"; };
+		844AB55AD35B09E86690C5751AFA0385 /* Pods-AFAboutViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFAboutViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A2237B49044F21DDE358B6496B0EF7E /* Pods-AFAboutViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFAboutViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B21CB400FEE54D648552A86670C31AC /* Pods-AFAboutViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFAboutViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3BF1AA319910107003C610B3721CC6C /* Pods-AFAboutViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFAboutViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		A8C0BA1D77CECB415238ABDE611824C0 /* Pods-AFAboutViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFAboutViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		AC927FBF8BDDEC0F3303D6C0061B6C1A /* Pods-AFAboutViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AFAboutViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		AED7FF211B2F7323D4E166239742AC56 /* Pods_AFAboutViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AFAboutViewController_Example.framework; path = "Pods-AFAboutViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B030673694C29521C84095D86ED25DE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B972AA17F6852F3BDAC252D031E2C5F5 /* Pods-AFAboutViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFAboutViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BAA8E3B54BFE2819CD748C6951D2C083 /* Pods_AFAboutViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AFAboutViewController_Tests.framework; path = "Pods-AFAboutViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA21D2F708471C37A6353096D1A7E73E /* Pods-AFAboutViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFAboutViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		D00CD1D2305245D6913BCE37D3D45B28 /* Pods-AFAboutViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFAboutViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D07FDA5E997B496888B2DA9B39B434FF /* AFAboutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFAboutViewController.m; sourceTree = "<group>"; };
+		DA07CE403136684546407C170C3FB011 /* AFAboutViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFAboutViewController.xcconfig; sourceTree = "<group>"; };
+		E58653FF52AF34A3450EECD6076B302D /* Pods-AFAboutViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFAboutViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F97AE5A2907BFF086F3A7446A5019B78 /* AFAboutViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFAboutViewController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247D1186AA1EB1E4FC330273348AB851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EB6E015DD03A425E7300A10DC34ADB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AD89E92C43EA88A50DE3B0DB8C26F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B74F51A15003B85BCECDC39385A897D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EECB5A102E623294802C6B178A7326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7B9AA6169F21DCE91ACAB4A7970DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086B283FD1DA797D85612260498D550D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70FD5EB4B0DAB07E19E9025F31AE8939 /* AFAboutViewController.h */,
+				D07FDA5E997B496888B2DA9B39B434FF /* AFAboutViewController.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1657FF7D772468C947D627EF69CA4F49 /* AFAboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				086B283FD1DA797D85612260498D550D /* Classes */,
+			);
+			name = AFAboutViewController;
+			path = AFAboutViewController;
+			sourceTree = "<group>";
+		};
+		1BB125B191DBA18C03903DB4D3536C76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				505A496207221FA0FB3353ECAA9643D1 /* Pods-AFAboutViewController_Example */,
+				FC6A2D7635E5829087600B280F3F1262 /* Pods-AFAboutViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		220935BD27D63BA980479FCA3DD9F0BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				281AA28A0480C7861375CCCC015A2C27 /* AFAboutViewController.modulemap */,
+				DA07CE403136684546407C170C3FB011 /* AFAboutViewController.xcconfig */,
+				5F58DDB79D7B0A998271A3FE217CFD1E /* AFAboutViewController-dummy.m */,
+				105210F5036564C9FD673897C256DABE /* AFAboutViewController-prefix.pch */,
+				F97AE5A2907BFF086F3A7446A5019B78 /* AFAboutViewController-umbrella.h */,
+				58D201DB2F92441AA85DFBDA983ED59E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AFAboutViewController";
+			sourceTree = "<group>";
+		};
+		497BA021D5548ED6ACACA54A428A6EF5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				811519F86FEF162DE120F27F2C94CDEB /* AFAboutViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		505A496207221FA0FB3353ECAA9643D1 /* Pods-AFAboutViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B030673694C29521C84095D86ED25DE4 /* Info.plist */,
+				22361F07D1DC58F953D9A28228EB75EB /* Pods-AFAboutViewController_Example.modulemap */,
+				66188981C421698BDB6428FA85E55C5A /* Pods-AFAboutViewController_Example-acknowledgements.markdown */,
+				9B21CB400FEE54D648552A86670C31AC /* Pods-AFAboutViewController_Example-acknowledgements.plist */,
+				3D7F2EDC3F6119431812517B3F926125 /* Pods-AFAboutViewController_Example-dummy.m */,
+				E58653FF52AF34A3450EECD6076B302D /* Pods-AFAboutViewController_Example-frameworks.sh */,
+				A8C0BA1D77CECB415238ABDE611824C0 /* Pods-AFAboutViewController_Example-resources.sh */,
+				A3BF1AA319910107003C610B3721CC6C /* Pods-AFAboutViewController_Example-umbrella.h */,
+				B972AA17F6852F3BDAC252D031E2C5F5 /* Pods-AFAboutViewController_Example.debug.xcconfig */,
+				5D48AFF1438F420D185D591A97DBFB48 /* Pods-AFAboutViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-AFAboutViewController_Example";
+			path = "Target Support Files/Pods-AFAboutViewController_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				497BA021D5548ED6ACACA54A428A6EF5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FCE027AE6333B9F770957AE1D5CABCF9 /* Products */,
+				1BB125B191DBA18C03903DB4D3536C76 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		811519F86FEF162DE120F27F2C94CDEB /* AFAboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1657FF7D772468C947D627EF69CA4F49 /* AFAboutViewController */,
+				220935BD27D63BA980479FCA3DD9F0BD /* Support Files */,
+			);
+			name = AFAboutViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC6A2D7635E5829087600B280F3F1262 /* Pods-AFAboutViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0596613565C59886C20E910904E80440 /* Info.plist */,
+				AC927FBF8BDDEC0F3303D6C0061B6C1A /* Pods-AFAboutViewController_Tests.modulemap */,
+				046E2F4587E998DF77C3883CD1EE6710 /* Pods-AFAboutViewController_Tests-acknowledgements.markdown */,
+				5A6E40AB058AEC1DD908E041D1C0C0F8 /* Pods-AFAboutViewController_Tests-acknowledgements.plist */,
+				844AB55AD35B09E86690C5751AFA0385 /* Pods-AFAboutViewController_Tests-dummy.m */,
+				18E8AB916A40F584B6530979CA69DEBE /* Pods-AFAboutViewController_Tests-frameworks.sh */,
+				CA21D2F708471C37A6353096D1A7E73E /* Pods-AFAboutViewController_Tests-resources.sh */,
+				8A2237B49044F21DDE358B6496B0EF7E /* Pods-AFAboutViewController_Tests-umbrella.h */,
+				D00CD1D2305245D6913BCE37D3D45B28 /* Pods-AFAboutViewController_Tests.debug.xcconfig */,
+				1EF712F842801BC93737FAE4A8C5E658 /* Pods-AFAboutViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-AFAboutViewController_Tests";
+			path = "Target Support Files/Pods-AFAboutViewController_Tests";
+			sourceTree = "<group>";
+		};
+		FCE027AE6333B9F770957AE1D5CABCF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4763EAA848A7D24ABBE02B65E69FB9F9 /* AFAboutViewController.framework */,
+				AED7FF211B2F7323D4E166239742AC56 /* Pods_AFAboutViewController_Example.framework */,
+				BAA8E3B54BFE2819CD748C6951D2C083 /* Pods_AFAboutViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4446D44431495C567E0BF6993C71750A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAC5EBD4B2357989D4DF7F83AC9A96 /* AFAboutViewController-umbrella.h in Headers */,
+				DE557DC0EB7C330D7394C6BF73742055 /* AFAboutViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB9D5D1DB807E454D5CB45AFDCE1CF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123306D3EF6EE3F6F71B28763B6CC92A /* Pods-AFAboutViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B66A3A9DB3735A3DE1BB36A73D8372 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9960ACDBC5027FF25C286276BE3DA64C /* Pods-AFAboutViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		593396E48F4B8467E9DB6D80A90E7F85 /* AFAboutViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2E71D3A995CD6395C240D06F3B96CF /* Build configuration list for PBXNativeTarget "AFAboutViewController" */;
+			buildPhases = (
+				B24E9D57AC3DCC27E62E67E78ED1F051 /* Sources */,
+				81AD89E92C43EA88A50DE3B0DB8C26F2 /* Frameworks */,
+				4446D44431495C567E0BF6993C71750A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFAboutViewController;
+			productName = AFAboutViewController;
+			productReference = 4763EAA848A7D24ABBE02B65E69FB9F9 /* AFAboutViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688D42787FE5DB3573CB0668618827F8 /* Pods-AFAboutViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3CD07AE6FF63118B83A4E0BB2108C6 /* Build configuration list for PBXNativeTarget "Pods-AFAboutViewController_Tests" */;
+			buildPhases = (
+				34080233B0E8BBE458021FF2E0277CBD /* Sources */,
+				85EECB5A102E623294802C6B178A7326 /* Frameworks */,
+				C1B66A3A9DB3735A3DE1BB36A73D8372 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFAboutViewController_Tests";
+			productName = "Pods-AFAboutViewController_Tests";
+			productReference = BAA8E3B54BFE2819CD748C6951D2C083 /* Pods_AFAboutViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73CA8D2DDE845D387A5CE705A0549FD2 /* Pods-AFAboutViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F0937905F0306B99A6DA8CFACD3E72 /* Build configuration list for PBXNativeTarget "Pods-AFAboutViewController_Example" */;
+			buildPhases = (
+				CB918172CF54A62B461BF2B3CC4C578A /* Sources */,
+				247D1186AA1EB1E4FC330273348AB851 /* Frameworks */,
+				BEB9D5D1DB807E454D5CB45AFDCE1CF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560211142B5B113EAA7C6291CC68A587 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFAboutViewController_Example";
+			productName = "Pods-AFAboutViewController_Example";
+			productReference = AED7FF211B2F7323D4E166239742AC56 /* Pods_AFAboutViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCE027AE6333B9F770957AE1D5CABCF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593396E48F4B8467E9DB6D80A90E7F85 /* AFAboutViewController */,
+				73CA8D2DDE845D387A5CE705A0549FD2 /* Pods-AFAboutViewController_Example */,
+				688D42787FE5DB3573CB0668618827F8 /* Pods-AFAboutViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34080233B0E8BBE458021FF2E0277CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3888B20AFBDB28149E0D11150B6027C6 /* Pods-AFAboutViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24E9D57AC3DCC27E62E67E78ED1F051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396C003D07F60201F628E88C7F23CBCA /* AFAboutViewController-dummy.m in Sources */,
+				23717C5E136A85F59A44A6AC1BA14E00 /* AFAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB918172CF54A62B461BF2B3CC4C578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316DFA1A9CC3E6D0A285713AEF91F60D /* Pods-AFAboutViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		560211142B5B113EAA7C6291CC68A587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFAboutViewController;
+			target = 593396E48F4B8467E9DB6D80A90E7F85 /* AFAboutViewController */;
+			targetProxy = A9047C31A8497B4F2594DF7E4A06DE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		612619A009502A0F11CE6811027C6066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA07CE403136684546407C170C3FB011 /* AFAboutViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFAboutViewController/AFAboutViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFAboutViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFAboutViewController/AFAboutViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFAboutViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EB966E348621F50CD74A3EA45EDE549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00CD1D2305245D6913BCE37D3D45B28 /* Pods-AFAboutViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AFAboutViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFAboutViewController_Tests/Pods-AFAboutViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AFAboutViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE63B807926D516249300E5889A9716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA07CE403136684546407C170C3FB011 /* AFAboutViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFAboutViewController/AFAboutViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFAboutViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFAboutViewController/AFAboutViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFAboutViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C82B1B7789C5D908697C386287C99A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B972AA17F6852F3BDAC252D031E2C5F5 /* Pods-AFAboutViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AFAboutViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFAboutViewController_Example/Pods-AFAboutViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AFAboutViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA319C9707C8A81315FBB3CE6276E24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D48AFF1438F420D185D591A97DBFB48 /* Pods-AFAboutViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AFAboutViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFAboutViewController_Example/Pods-AFAboutViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AFAboutViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3D8BF8BD77CA4F34F15E3A7F35F40E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF712F842801BC93737FAE4A8C5E658 /* Pods-AFAboutViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AFAboutViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFAboutViewController_Tests/Pods-AFAboutViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AFAboutViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3CD07AE6FF63118B83A4E0BB2108C6 /* Build configuration list for PBXNativeTarget "Pods-AFAboutViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB966E348621F50CD74A3EA45EDE549 /* Debug */,
+				E3D8BF8BD77CA4F34F15E3A7F35F40E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2E71D3A995CD6395C240D06F3B96CF /* Build configuration list for PBXNativeTarget "AFAboutViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612619A009502A0F11CE6811027C6066 /* Debug */,
+				7CE63B807926D516249300E5889A9716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F0937905F0306B99A6DA8CFACD3E72 /* Build configuration list for PBXNativeTarget "Pods-AFAboutViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82B1B7789C5D908697C386287C99A6E /* Debug */,
+				DA319C9707C8A81315FBB3CE6276E24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
