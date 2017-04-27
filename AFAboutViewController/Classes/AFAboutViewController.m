@@ -68,10 +68,13 @@
     versionLabel.textColor = [UIColor blackColor];
     versionLabel.font = [UIFont systemFontOfSize:17];
     versionLabel.textAlignment = NSTextAlignmentCenter;
+    NSString *appDisplayName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
     NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *buildVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
     versionLabel.text = [NSString stringWithFormat:@"%@ %@(%@)",appName,version,buildVersion];
+    
+    appName = appDisplayName?:appName;
     
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:versionLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:logo attribute:NSLayoutAttributeBottom multiplier:1.0 constant:44]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:versionLabel attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0]];
