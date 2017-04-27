@@ -85,7 +85,7 @@
     rateButton.layer.borderWidth = 0.5f;
     rateButton.layer.borderColor =[UIColor lightGrayColor].CGColor;
     rateButton.contentHorizontalAlignment=UIControlContentHorizontalAlignmentLeft;
-    NSString * ratestr = [NSString stringWithFormat:@" Rate %@",appName];
+    NSString * ratestr = [[NSString stringWithFormat:@" Rate %@",appName] uppercaseString];
     [rateButton setTitle:ratestr forState:UIControlStateNormal];
     [rateButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [rateButton addTarget:self action:@selector(rateApp) forControlEvents:UIControlEventTouchUpInside];
@@ -112,7 +112,6 @@
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:copyright attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:copyright attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1.0 constant:0]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:copyright attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeHeight multiplier:1.0 constant:21]];
-    
     
 }
 
