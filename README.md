@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)
 [![Platform](https://img.shields.io/cocoapods/p/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)
 
-![](https://raw.githubusercontent.com/hw-1/AFAboutViewController/master/Example/Screen1.png)
+![](https://raw.githubusercontent.com/hw-1/AFAboutViewController/master/Example/Screen1.png =320x)
 
 ## Example
 
