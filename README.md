@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)
 [![Platform](https://img.shields.io/cocoapods/p/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)
 
+![](https://raw.githubusercontent.com/hw-1/AFAboutViewController/master/Example/Screen1.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
