@@ -39,10 +39,10 @@
 /* Begin PBXFileReference section */
 		2E96D12882BB8A1FD15F0600 /* Pods-AFAboutViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAboutViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFAboutViewController_Example/Pods-AFAboutViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		37FB36282467A55D7266B83F /* Pods_AFAboutViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFAboutViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45075AF1009D90DC90014C75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45075AF1009D90DC90014C75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		477A89A176641C5200132B97 /* Pods-AFAboutViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAboutViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAboutViewController_Example/Pods-AFAboutViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4A51B22B5954B8D548B703A9 /* AFAboutViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AFAboutViewController.podspec; path = ../AFAboutViewController.podspec; sourceTree = "<group>"; };
-		5348F3D4CC914ACC371FEA55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A51B22B5954B8D548B703A9 /* AFAboutViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AFAboutViewController.podspec; path = ../AFAboutViewController.podspec; sourceTree = "<group>"; };
+		5348F3D4CC914ACC371FEA55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AFAboutViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFAboutViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -530,6 +530,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -545,6 +546,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
