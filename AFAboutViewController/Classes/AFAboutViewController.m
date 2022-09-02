@@ -53,7 +53,7 @@
     
     CGFloat deltaY = 44;
     if (self.navigationController && self.navigationController.navigationBar.translucent) {
-        deltaY += 44;
+        deltaY += 88;
     }
     
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:logo attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:deltaY]];
