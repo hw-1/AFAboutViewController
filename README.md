@@ -1,6 +1,6 @@
 # AFAboutViewController
 
-[![CI Status](http://img.shields.io/travis/vpnss1231@gmail.com/AFAboutViewController.svg?style=flat)](https://travis-ci.org/vpnss1231@gmail.com/AFAboutViewController)
+[![CI Status](http://img.shields.io/travis/mac/AFAboutViewController.svg?style=flat)](https://travis-ci.org/mac/AFAboutViewController)
 [![Version](https://img.shields.io/cocoapods/v/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)
 [![License](https://img.shields.io/cocoapods/l/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)
 [![Platform](https://img.shields.io/cocoapods/p/AFAboutViewController.svg?style=flat)](http://cocoapods.org/pods/AFAboutViewController)

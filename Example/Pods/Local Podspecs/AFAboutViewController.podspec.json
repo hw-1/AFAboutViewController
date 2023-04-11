@@ -1,22 +1,22 @@
 {
   "name": "AFAboutViewController",
-  "version": "0.1.0",
-  "summary": "A short description of AFAboutViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/vpnss1231@gmail.com/AFAboutViewController",
+  "version": "0.1.6",
+  "summary": "AFAboutViewController",
+  "description": "AFAboutViewController - fast add about view with one line code",
+  "homepage": "https://github.com/hw-1/AFAboutViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "vpnss1231@gmail.com": "user1@users.noreply.github.com"
+    "user1": "user1@users.noreply.github.com"
   },
   "source": {
-    "git": "https://github.com/vpnss1231@gmail.com/AFAboutViewController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hw-1/AFAboutViewController.git",
+    "tag": "0.1.6"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
   "source_files": "AFAboutViewController/Classes/**/*"
 }

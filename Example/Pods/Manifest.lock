@@ -1,5 +1,5 @@
 PODS:
-  - AFAboutViewController (0.1.0)
+  - AFAboutViewController (0.1.6)
 
 DEPENDENCIES:
   - AFAboutViewController (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFAboutViewController: c5ee4b49c6508c53eca7b300975840113f67d596
+  AFAboutViewController: dfb99c8a98d097b7186ce58ddbe843abd2a510fa
 
 PODFILE CHECKSUM: 1ad7464ba9ce756bba934994e32c2970d9b9648f
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.12.0

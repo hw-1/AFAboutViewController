@@ -37,19 +37,10 @@
     UIImageView * logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"AppIcon60x60"]];
     [self.view addSubview:logo];
     logo.translatesAutoresizingMaskIntoConstraints = NO;
-//    logo.autoresizesSubviews = NO;
-    
-//    logo.layer.borderWidth = 0.5f;
-//    logo.layer.borderColor =[UIColor lightGrayColor].CGColor;
-    // border radius
+ 
     logo.layer.cornerRadius = 10;
     [logo.layer setMasksToBounds:YES];
-    
-    // shadow
-//    logo.layer.shadowColor = [UIColor blackColor].CGColor;
-//    logo.layer.shadowOffset = CGSizeMake(3, 3);
-//    logo.layer.shadowOpacity = 0.7;
-//    logo.layer.shadowRadius = 10.0;
+ 
     
     CGFloat deltaY = 44;
     if (self.navigationController && self.navigationController.navigationBar.translucent) {
@@ -125,11 +116,7 @@
                      @"https://itunes.apple.com/us/app/id%@?ls=1&mt=8",
                      self.AppId ];
     NSLog(@"%@",str);
-    if (@available(iOS 10.0, *)) {
-        [[UIApplication sharedApplication]  openURL:[NSURL URLWithString:str]  options:@{} completionHandler:nil];
-    } else {
-        [[UIApplication sharedApplication]  openURL:[NSURL URLWithString:str]];
-    }
+    [[UIApplication sharedApplication]  openURL:[NSURL URLWithString:str]  options:@{} completionHandler:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -137,14 +124,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
+ 
 @end
